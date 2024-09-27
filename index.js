@@ -6,6 +6,7 @@ const port = 3000 //port
 app.get("/", (req, res)=>{
     res.send("Hello");
 });
+
 //get = mengambil
 app.get("/about",(req, res)=>{
     // res.send("About us");
