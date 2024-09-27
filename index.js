@@ -1,6 +1,6 @@
-const express = require("express") // import modul express
-const app = express() // inisialisasi express
-const port = 3000 //port
+// const express = require("express") // import modul express
+// const app = express() // inisialisasi express
+// const port = 3000 //port
 
 
 app.get("/", (req, res)=>{
